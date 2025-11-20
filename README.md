@@ -56,3 +56,19 @@ This repository contains the results of an Exploratory Data Analysis (EDA) perfo
 
 *   The very weak linear correlations between environmental factors like temperature, humidity, and light suggest that their interactions might be non-linear, delayed, or influenced by other unmeasured variables. Further investigation using non-linear correlation methods or time-series analysis could reveal more complex relationships.
 *   Given the strong day-night cycles observed in light data, incorporating a 'time of day' or 'day/night' feature could enhance predictive models or further analysis requiring an understanding of diurnal patterns for all sensor readings.
+## Visualizations
+
+### Trends over Time (Temperature, Humidity, Light)
+![Trends Over Time](plots/trends_over_time.png)
+
+### Correlation Matrix Heatmap
+![Correlation Heatmap](plots/correlation_heatmap.png)
+
+### Pairwise Scatter Plots
+![Pairwise Scatter Plots](plots/pairwise_scatter_plots.png)
+
+### Light Intensity Over Time (Day-Night Cycles)
+![Light Day-Night Cycles](plots/light_day_night_cycles.png)
+
+### Temperature and Humidity Over Time
+![Temperature and Humidity Trends](plots/temp_humidity_trends.png)
